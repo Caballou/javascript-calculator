@@ -44,7 +44,7 @@ function App() {
       } else if ( ( input.charAt(input.length - 1).match( /[+/%*^]/ ) && val.match( /[+*/%^]/) )) { 
         setInput(input.slice(0,-1) + val)
       
-        /*Casos particulares. Ej: (*-+) en ese caso, la operación a realizar es la última (+)*/
+        /*Casos particulares. Ej: (*-+) en ese caso, la operación a realizar es la última (+)
       } else if ( ( input.charAt(input.length - 2).match( /[/%*^]/ ) && val.match( /[+]/) )) {
         setInput(input.slice(0,-2) + val)
       

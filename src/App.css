@@ -23,7 +23,7 @@
 }
 
 .div-principal {
-  width: 600px;
+  width: 500px;
   padding: 20px;
   background-color: var(--color-principal);
   border-radius: 20px;
@@ -31,10 +31,10 @@
 }
 
 .div-botones {
-  margin: 50px 0 0 0;
-  height: 450px;
+  height: 400px;
   display: grid;
   grid-template-columns: repeat(6,1fr);
+  min-height: 175px;
 }
 
 .div-mem {
@@ -76,4 +76,58 @@
 .firma {
   padding: 10px;
   color: white;
+}
+
+@media (max-width: 550px) {
+  .App {
+    min-width: 260px;
+  }
+  .div-principal {
+    padding: 3.5vw;
+    width: 91vw;
+    height: 111vw;
+    min-width: 241px;
+    min-height: 288px;
+  }
+  .div-botones {
+    height: 72%;
+  }
+}
+
+@media (max-height: 670px) {
+  .App {
+    min-height: 310px;
+  }
+  .div-principal {
+    padding: 3vh;
+    height: 86vh;
+    width: 75vh;
+    min-height: 268px;
+    min-width: 240px;
+  }
+  .div-botones {
+    height: 72%;
+  }
+}
+
+@media (max-height: 300px) {
+  .div-principal {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 580px) and (max-height: 670px) {
+  .App {
+    min-width: 280px;
+  }
+  .div-principal {
+   height: 75vh;
+   width: 90vw;
+   padding: 2vh;
+  }
+  .div-botones {
+    height: 72%;
+    width: 100%;
+    min-height: 175px;
+  }
 }
