@@ -30,7 +30,7 @@
   user-select: none;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 579px) {
   .pantalla {
     margin: 5.4vw 0;
     height: 18.4vw;
@@ -46,7 +46,7 @@
   } 
 }
 
-@media (max-height: 670px) {
+@media (max-height: 669px) {
   .pantalla {
     margin: 4vh 0;
     height: 15vh;
@@ -62,7 +62,7 @@
   } 
 }
 
-@media (max-height: 300px) {
+@media (height <= 300px) {
   .pantalla {
     margin: 11px 0;
     height: 45px;
@@ -77,7 +77,7 @@
   } 
 }
 
-@media (max-width: 580px) and (max-height: 670px) and (height >= 300px) {
+@media (width < 580px) and (height < 670px) and (height > 300px) {
   .pantalla {
     margin: 4vh 0;
     height: 12vh;

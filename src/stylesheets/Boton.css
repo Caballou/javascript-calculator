@@ -32,7 +32,7 @@
   background-color: #ff6600;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 579px) {
   .boton-contenedor {
     font-size: 4.2vw;
     margin: 0.7vw;
@@ -40,7 +40,7 @@
   }
 }
 
-@media (max-height: 670px) {
+@media (max-height: 669px) {
   .boton-contenedor {
     font-size: 3.6vh;
     margin: 0.6vh;
@@ -48,18 +48,26 @@
   }
 }
 
-@media (max-height: 300px) {
+@media (height <= 300px) {
   .boton-contenedor {
-    font-size: 10px;
-    margin: 1.7px;
-    border-radius: 7px;
+    font-size: 12px;
+    margin: 2px;
+    border-radius: 8px;
   }
 }
 
-@media (max-width: 580px) and (max-height: 670px)  {
+@media (width < 580px) and (height < 670px)  {
   .boton-contenedor {
-    font-size: 4.2vw;
-    margin: 0.7vw;
-    border-radius: 3vw;
+    font-size: 3.5vw;
+    margin: 0.5vw;
+    border-radius: 2vw;
   }
 }
+
+
+
+
+
+
+
+

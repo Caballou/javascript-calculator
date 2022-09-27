@@ -78,7 +78,7 @@
   color: white;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 579px) {
   .App {
     min-width: 260px;
   }
@@ -94,7 +94,7 @@
   }
 }
 
-@media (max-height: 670px) {
+@media (max-height: 669px) {
   .App {
     min-height: 310px;
   }
@@ -110,24 +110,30 @@
   }
 }
 
-@media (max-height: 300px) {
+@media (height < 300px) {
+
   .div-principal {
     padding: 10px;
   }
 }
 
-@media (max-width: 580px) and (max-height: 670px) {
+@media (width < 580px) and (height < 670px) {
   .App {
-    min-width: 280px;
+    min-height: 320px;
   }
   .div-principal {
    height: 75vh;
    width: 90vw;
    padding: 2vh;
+   min-height: 275px;
+   min-width: 240px;
   }
   .div-botones {
     height: 72%;
     width: 100%;
-    min-height: 175px;
+    min-height: 140px;
   }
 }
+
+
+
